@@ -33,8 +33,16 @@ class GrpcServer {
   }
   
   listen(address, creds=grpc.ServerCredentials.createInsecure()){
-    this.server.bind(address, creds);
-    this.server.start();
+    this.server.bindAsync(
+      address,
+      creds,
+      (err) => {
+        if (err != null) {
+          return console.error(err);
+        }
+        this.server.start();
+      }
+    );
     return this;
   }
 

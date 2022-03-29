@@ -27,6 +27,7 @@
     "@grpc/grpc-js": "^1.5.10",
     "@grpc/proto-loader": "^0.6.9",
     "intelli-espower-loader": "^1.0.1",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.1"
   }
 }
