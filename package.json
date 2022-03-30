@@ -1,6 +1,6 @@
 {
-  "name": "grpc-kit",
-  "version": "0.2.0",
+  "name": "grpc-kit-js",
+  "version": "0.0.0",
   "description": "use grpc more simply",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YoshiyukiKato/grpc-kit.git"
+    "url": "git+https://github.com/ptibv/grpc-kit-js.git"
   },
   "keywords": [
     "grpc"
@@ -16,9 +16,9 @@
   "author": "YoshiyukiKato",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YoshiyukiKato/grpc-kit/issues"
+    "url": "https://https://github.com/ptibv/grpc-kit-js/issues"
   },
-  "homepage": "https://github.com/YoshiyukiKato/grpc-kit#readme",
+  "homepage": "https://https://github.com/ptibv/grpc-kit-js#readme",
   "peerDependencies": {
     "@grpc/grpc-js": "^1.5.10",
     "@grpc/proto-loader": "^0.6.9"
